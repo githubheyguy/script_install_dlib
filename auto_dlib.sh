@@ -2,7 +2,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install cmake -y
 sudo apt-get install build-essential -y
 sudo apt install libopencv-dev python3-opencv -y
-sudo apt install python3-pip
+sudo apt install python3-pip -y
 #------------------------------install dlib----------------------
 sudo git clone https://github.com/davisking/dlib.git
 sudo chmod -R 777 dlib 
